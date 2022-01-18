@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+_start	main.asm	/^_start:$/;"	l
+border	field.asm	/^border	db	0$/;"	d
+c1	field.asm	/^.c1:	; case BORDER:$/;"	l
+c2	field.asm	/^.c2:	; case SNAKE:$/;"	l
+c3	field.asm	/^.c3:	; case EMPTY:$/;"	l
+c4	field.asm	/^.c4:	; case FOOD:$/;"	l
+c5	field.asm	/^.c5:	; case DEFAULT:$/;"	l
+empty	field.asm	/^empty	db	2$/;"	d
+end_loop	field.asm	/^.end_loop:$/;"	l
+end_x_loop	field.asm	/^.end_x_loop:$/;"	l
+exit	std.asm	/^exit:$/;"	l
+field	field.asm	/^field	resd	FIELD_MAX_Y*FIELD_MAX_X$/;"	l
+field_init	field.asm	/^field_init:$/;"	l
+field_init_border	field.asm	/^field_init_border:$/;"	l
+field_render	field.asm	/^field_render:$/;"	l
+food	field.asm	/^food	db	3$/;"	d
+index_array	std.asm	/^index_array:$/;"	l
+message	main.asm	/^message db "Register = %08X", 10, 0$/;"	d
+pos_invalid	snake.asm	/^pos_invalid  db "snake position invalid", 10, 0$/;"	d
+pre_x_loop	field.asm	/^.pre_x_loop:$/;"	l
+pre_y_loop	field.asm	/^.pre_y_loop:$/;"	l
+printch	std.asm	/^printch:$/;"	l
+printstr	std.asm	/^printstr:$/;"	l
+send	field.asm	/^.send:	; switch end$/;"	l
+snake	field.asm	/^snake	db	1$/;"	d
+snake_init	snake.asm	/^snake_init:$/;"	l
+snake_position_invalid	snake.asm	/^.snake_position_invalid:$/;"	l
+start_x_loop	field.asm	/^.start_x_loop:$/;"	l
+start_y_loop	field.asm	/^.start_y_loop:$/;"	l
